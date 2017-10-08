@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.2'
-gem 'sqlite3',      '1.3.13'
+gem 'sqlite3', group: :development
+gem 'pg', group: :production
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
