@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.2'
+gem 'bootstrap-sass', '3.3.7'
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
 gem 'puma',         '3.9.1'
