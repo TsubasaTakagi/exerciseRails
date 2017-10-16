@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.2'
+gem 'rails_12factor', group: :production
 gem 'bcrypt',         '3.1.11'
 gem 'bootstrap-sass', '3.3.7'
-gem 'sqlite3'
-gem 'pg'
+gem 'sqlite3', group: :development
+# 本番ではpostgressを使用する
+gem 'pg', group: :production
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '3.2.0'
